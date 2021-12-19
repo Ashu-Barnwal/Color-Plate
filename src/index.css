@@ -5,6 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: lightgreen;
+  animation: fade 20s infinite;
+}
+@keyframes fade{
+  0%   {background-color:burlywood; }
+  25%  {background-color:aliceblue; }
+  50%  {background-color:lavender; }
+  75%  {background-color:lavenderblush; }
+  100% {background-color:lightgreen; }
 }
 
 code {
