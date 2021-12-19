@@ -2,6 +2,7 @@ const Input = ({handleChange}) => {
     return (
         <div>
             <input 
+                autoFocus
                 type="text"
                 placeholder="Color Name/ #HexCode"
                 style={{
