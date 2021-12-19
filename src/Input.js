@@ -1,8 +1,9 @@
-const Input = ({handleChange}) => {
+const Input = ({handleChange, inputRef}) => {
     return (
         <div>
             <input 
                 autoFocus
+                ref={inputRef}
                 type="text"
                 placeholder="Color Name/ #HexCode"
                 style={{
@@ -12,8 +13,9 @@ const Input = ({handleChange}) => {
                     height: '25px',
                     fontSize: '20px',
                     padding: '5px',
-                    boxShadow: '1px 5px 7px #2E2926',
-                    backgroundColor: "transparent"
+                    boxShadow: '1px 5px 7px #161514',
+                    backgroundColor: "transparent",
+                    color: '867575'
                 }}
                 onChange={(e) => {
                     handleChange(e);
