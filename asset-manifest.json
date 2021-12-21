@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Color-Plate/static/css/main.ead38be7.css",
+    "main.js": "/Color-Plate/static/js/main.323ed076.js",
+    "index.html": "/Color-Plate/index.html",
+    "main.ead38be7.css.map": "/Color-Plate/static/css/main.ead38be7.css.map",
+    "main.323ed076.js.map": "/Color-Plate/static/js/main.323ed076.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ead38be7.css",
+    "static/js/main.323ed076.js"
+  ]
+}
