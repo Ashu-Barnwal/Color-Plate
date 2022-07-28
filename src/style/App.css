@@ -1,0 +1,140 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+:root {
+  --colorMain: #c0c0c0;
+  --brShadow: -5px 5px 13px rgba(0,0,0,0.5);
+  --tlShadow: 5px -5px 13px rgba(255,255,255,0.8);
+  --ibrShadow: inset -5px 5px 13px rgba(0,0,0,0.5);
+  --itlShadow: inset 5px -5px 13px rgba(255,255,255,0.8);
+
+  --colorMainDark: #403939;
+  --brShadowDark: -5px 5px 13px rgba(0,0,0,0.5);
+  --tlShadowDark: 5px -5px 13px rgba(100, 100, 100, 0.8);
+  --ibrShadowDark: inset -5px 5px 13px rgba(0,0,0,0.5);
+  --itlShadowDark: inset 5px -5px 13px rgba(100, 100, 100, 0.8);
+}
+
+.App {
+  margin: 0;
+  height: 100vh;
+  padding-top: 10%;
+  align-items: center;
+  font-family: sans-serif;
+  justify-content: center;
+}
+
+.plate {
+  width: 17rem;
+  height: 18rem;
+  font-size: 24px;
+  font-weight: bold;
+  color: #a88c75;
+  margin-top: 10px;
+  border-radius: 40px;
+  padding: 30px 35px 35px 35px;
+  background: var(--colorMain);
+  box-shadow: var(--brShadow), 
+              var(--tlShadow);
+}
+
+.colorPlate {
+  width: 12rem;
+  height: 8rem;
+  border-radius: 20px;
+  box-shadow: var(--ibrShadow), 
+              var(--itlShadow);
+}
+
+.inputBox {
+  border: none;
+  width: 19rem;
+  height: 4rem;
+  font-size: 24px;
+  color: #a88c75;
+  margin-top: 20px;
+  padding-left: 20px;
+  border-radius: 15px;
+  background: var(--colorMain);
+  box-shadow: var(--ibrShadow), 
+              var(--itlShadow);
+}
+.inputBox:focus {
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+.text {
+  margin-top: 6%;
+  font-size: 8em;
+  font-weight: bold;
+  position: relative;
+  color: var(--colorMain);
+  text-transform: uppercase;
+  text-shadow: var(--brShadow), 
+               var(--tlShadow);
+}
+
+.plateDark {
+  width: 17rem;
+  height: 18rem;
+  font-size: 24px;
+  font-weight: bold;
+  color: #a88c75;
+  margin-top: 10px;
+  border-radius: 40px;
+  padding: 30px 35px 35px 35px;
+  background: var(--colorMainDark);
+  box-shadow: var(--brShadowDark), 
+              var(--tlShadowDark);
+}
+
+.colorPlateDark {
+  width: 12rem;
+  height: 8rem;
+  border-radius: 20px;
+  box-shadow: var(--ibrShadowDark), 
+              var(--itlShadowDark);
+}
+
+.inputBoxDark {
+  border: none;
+  width: 19rem;
+  height: 4rem;
+  font-size: 24px;
+  color: #a88c75;
+  margin-top: 20px;
+  padding-left: 20px;
+  border-radius: 15px;
+  background: var(--colorMainDark);
+  box-shadow: var(--ibrShadowDark), 
+              var(--itlShadowDark);
+}
+.inputBoxDark:focus {
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+.textDark {
+  margin-top: 6%;
+  font-size: 8em;
+  font-weight: bold;
+  position: relative;
+  color: var(--colorMainDark);
+  text-transform: uppercase;
+  text-shadow: var(--brShadowDark), 
+               var(--tlShadowDark);
+}
+
+@media only screen and (max-width: 600px) {
+  .text {
+    font-size: 5rem;
+    margin-top: 15%;
+  }
+  .textDark {
+    font-size: 5rem;
+    margin-top: 15%;
+  }
+}

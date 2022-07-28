@@ -1,16 +1,18 @@
-import Colorplate from './Colorplate';
-import Input from './Input'
-import './App.css';
+import Colorplate from './components/Colorplate';
+import Input from './components/Input'
+import './style/App.css';
 import {useState, useRef} from 'react';
 import colorNames from "colornames";
-import Background from './Background';
+import Background from './components/Background';
+import Banner from './components/Banner';
 
 function App() {
 
   const [color, setcolor] = useState('');
   const [hexV, setHexV] = useState('');
-  const [bStyle, setBStyle] = useState('lightgreen');
-  const [rStyle, setRStyle] = useState('fade 20s infinite');
+  const [bStyle, setBStyle] = useState('#c0c0c0');
+  const [rStyle, setRStyle] = useState('');
+  const [cName, setCName] = useState('');
 
   document.body.style.backgroundColor = bStyle;
   document.body.style.animation = rStyle;
@@ -27,15 +29,21 @@ function App() {
       <Background 
         setBStyle={setBStyle}
         setRStyle={setRStyle}
+        setClassName={setCName}
         inputRef={inputRef}
       />
       <Colorplate 
         bg={color}
         hex={hexV}
+        cName={cName}
       />
       <Input 
         handleChange={handleChange}
         inputRef={inputRef}
+        cName={cName}
+      />
+      <Banner
+        cName={cName}
       />
     </center>
   );
