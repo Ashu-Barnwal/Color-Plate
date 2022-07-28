@@ -10,9 +10,9 @@
 
   --colorMainDark: #403939;
   --brShadowDark: -5px 5px 13px rgba(0,0,0,0.5);
-  --tlShadowDark: 5px -5px 13px rgba(100, 100, 100, 0.8);
+  --tlShadowDark: 5px -5px 13px rgba(114, 114, 114, 0.8);
   --ibrShadowDark: inset -5px 5px 13px rgba(0,0,0,0.5);
-  --itlShadowDark: inset 5px -5px 13px rgba(100, 100, 100, 0.8);
+  --itlShadowDark: inset 5px -5px 13px rgba(114, 114, 114, 0.8);
 }
 
 .App {
