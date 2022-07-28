@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Color-Plate/static/css/main.ead38be7.css",
-    "main.js": "/Color-Plate/static/js/main.323ed076.js",
+    "main.css": "/Color-Plate/static/css/main.064fc31d.css",
+    "main.js": "/Color-Plate/static/js/main.a2ed00b5.js",
     "index.html": "/Color-Plate/index.html",
-    "main.ead38be7.css.map": "/Color-Plate/static/css/main.ead38be7.css.map",
-    "main.323ed076.js.map": "/Color-Plate/static/js/main.323ed076.js.map"
+    "main.064fc31d.css.map": "/Color-Plate/static/css/main.064fc31d.css.map",
+    "main.a2ed00b5.js.map": "/Color-Plate/static/js/main.a2ed00b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.ead38be7.css",
-    "static/js/main.323ed076.js"
+    "static/css/main.064fc31d.css",
+    "static/js/main.a2ed00b5.js"
   ]
 }
