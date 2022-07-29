@@ -16,7 +16,7 @@
 }
 
 .App {
-  margin: 0;
+  padding-top: 5%;
 }
 
 .plate {
@@ -61,7 +61,7 @@
 }
 
 .text {
-  margin-top: 5%;
+  margin-top: 3%;
   font-size: 8em;
   font-weight: bold;
   position: relative;
@@ -113,7 +113,7 @@
 }
 
 .textDark {
-  margin-top: 5%;
+  margin-top: 3%;
   font-size: 8em;
   font-weight: bold;
   position: relative;
@@ -124,6 +124,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .App {
+    padding-top: 15%;
+  }
   .text {
     font-size: 5rem;
     margin-top: 15%;
