@@ -16,6 +16,7 @@ function App() {
 
   document.body.style.backgroundColor = bStyle;
   document.body.style.animation = rStyle;
+  document.title = 'COLOR PLATE';
 
   const handleChange = (e) =>{
     setcolor(e.target.value);
