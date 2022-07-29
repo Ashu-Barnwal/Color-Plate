@@ -30,6 +30,7 @@ function App() {
         setBStyle={setBStyle}
         setRStyle={setRStyle}
         setClassName={setCName}
+        cName={cName}
         inputRef={inputRef}
       />
       <Colorplate 

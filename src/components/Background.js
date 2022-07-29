@@ -1,8 +1,8 @@
-const Background = ({setBStyle, setRStyle, setClassName, inputRef}) => {
+const Background = ({setBStyle, setRStyle, setClassName, cName, inputRef}) => {
     return (
         <div className="btnTheme">
             <button 
-                className="btnW"
+                className={`btnW${cName}`}
                 onClick={() => {
                     setRStyle('');
                     setBStyle('#c0c0c0');
@@ -11,7 +11,7 @@ const Background = ({setBStyle, setRStyle, setClassName, inputRef}) => {
                 }}
             ></button>
             <button 
-                className="btnD"
+                className={`btnD${cName}`}
                 onClick={() => {
                     setRStyle('');
                     setBStyle('#403939');
@@ -20,7 +20,7 @@ const Background = ({setBStyle, setRStyle, setClassName, inputRef}) => {
                 }}
             ></button>
             <button 
-                className="btnR"
+                className={`btnR${cName}`}
                 onClick={() => {
                     setRStyle('fade 20s infinite');
                     setBStyle('lightgreen');
