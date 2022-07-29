@@ -17,11 +17,6 @@
 
 .App {
   margin: 0;
-  height: 100vh;
-  padding-top: 10%;
-  align-items: center;
-  font-family: sans-serif;
-  justify-content: center;
 }
 
 .plate {
@@ -66,7 +61,7 @@
 }
 
 .text {
-  margin-top: 6%;
+  margin-top: 5%;
   font-size: 8em;
   font-weight: bold;
   position: relative;
@@ -118,7 +113,7 @@
 }
 
 .textDark {
-  margin-top: 6%;
+  margin-top: 5%;
   font-size: 8em;
   font-weight: bold;
   position: relative;

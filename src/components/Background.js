@@ -1,6 +1,6 @@
 const Background = ({setBStyle, setRStyle, setClassName, inputRef}) => {
     return (
-        <div>
+        <div className="btnTheme">
             <button 
                 className="btnW"
                 onClick={() => {
