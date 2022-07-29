@@ -199,7 +199,7 @@
   box-shadow: var(--btnBrShadowDark), 
               var(--btnTlShadowDark);
   border: 5px solid #403939;
-  background-image: linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet);
+  background-image: linear-gradient(to bottom right, lightgreen, rgb(161, 176, 189), rgb(156, 141, 121), rgb(128, 128, 223), blue, lightgreen);
 }
 
 @media only screen and (max-width: 600px) {
