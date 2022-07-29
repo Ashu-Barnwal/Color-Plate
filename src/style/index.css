@@ -9,11 +9,11 @@ body {
   /* animation: fade 20s infinite; */
 }
 @keyframes fade{
-  0%   {background-color:lightgreen; }
-  25%  {background-color:rgb(161, 176, 189); }
-  50%  {background-color:rgb(156, 141, 121); }
-  75%  {background-color:rgb(128, 128, 223); }
-  100% {background-color:lightgreen; }
+  0%   {background-color: rgb(201, 241, 201); }
+  25%  {background-color: rgb(161, 176, 189); }
+  50%  {background-color: rgb(156, 141, 121); }
+  75%  {background-color: #c0c0c0; }
+  100% {background-color: rgb(201, 241, 201); }
 }
 
 /* code {
