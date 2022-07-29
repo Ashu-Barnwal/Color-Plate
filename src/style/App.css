@@ -13,6 +13,12 @@
   --tlShadowDark: 5px -5px 13px rgba(114, 114, 114, 0.8);
   --ibrShadowDark: inset -5px 5px 13px rgba(0,0,0,0.5);
   --itlShadowDark: inset 5px -5px 13px rgba(114, 114, 114, 0.8);
+
+  --btnBrShadow: -5px 5px 11px rgba(0,0,0,0.5);
+  --btnTlShadow: 5px -5px 14px rgba(255,255,255,0.8);
+
+  --btnBrShadowDark: -5px 5px 11px rgba(0,0,0,0.5);
+  --btnTlShadowDark: 5px -5px 14px rgba(114, 114, 114, 0.8);
 }
 
 .App {
@@ -121,6 +127,79 @@
   text-transform: uppercase;
   text-shadow: var(--brShadowDark), 
                var(--tlShadowDark);
+}
+
+.btnW{
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 100%;
+  background-color: #dacfcf;
+  /* box-shadow: 1px 5px 7px #161514; */
+  box-shadow: var(--btnBrShadow), 
+              var(--btnTlShadow);
+  border: 5px solid #c0c0c0;
+}
+.btnD{
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 100%;
+  background-color: #332D2D;
+  /* box-shadow: 1px 5px 7px #161514; */
+  box-shadow: var(--btnBrShadow), 
+              var(--btnTlShadow);
+  border: 5px solid #c0c0c0;
+}
+.btnR{
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 100%;
+  /* box-shadow: 1px 5px 7px #161514; */
+  box-shadow: var(--btnBrShadow), 
+              var(--btnTlShadow);
+  border: 5px solid #c0c0c0;
+  background-image: linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet);
+}
+.btnWDark{
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 100%;
+  background-color: #a09e9e;
+  /* box-shadow: 1px 5px 7px #161514; */
+  box-shadow: var(--btnBrShadowDark), 
+              var(--btnTlShadowDark);
+  border: 5px solid #403939;
+}
+.btnDDark{
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 100%;
+  background-color: #332D2D;
+  /* box-shadow: 1px 5px 7px #161514; */
+  box-shadow: var(--btnBrShadowDark), 
+              var(--btnTlShadowDark);
+  border: 5px solid #403939;
+}
+.btnRDark{
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 100%;
+  /* box-shadow: 1px 5px 7px #161514; */
+  box-shadow: var(--btnBrShadowDark), 
+              var(--btnTlShadowDark);
+  border: 5px solid #403939;
+  background-image: linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet);
 }
 
 @media only screen and (max-width: 600px) {
